@@ -11,6 +11,9 @@ gem "coffee-rails"
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder"
+gem "bootsnap", require: false
+gem "bootstrap-sass"
+gem "bcrypt"
 
 group :development, :test do
   gem "sqlite3"
